@@ -27,7 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+}32
 body {
 	line-height: 1;
 }
@@ -45,4 +45,65 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+body {
+	background-color:LightGray;
+	font-family: 'Roboto', sans-serif;
+}
+div {
+	border: 1px solid Chocolate;
+}
+.content {
+	width: 970px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation .content {
+	height: 70px;
+}
+.top-navigation .logo {
+	height: 70px;
+}
+.top-navigation .links {
+	float: right; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.introduction {
+	background-image: url(../img/karma-background.jpg);
+	background-position: 0 bottom;
+	background-size: cover;
+}
+.introduction .content {
+	color: white;
+}
+
+.introduction h1 h3 {
+	text-align: center;
+	font-weight: 300;
+}
+.buttons {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
 }
