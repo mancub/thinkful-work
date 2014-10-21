@@ -61,15 +61,23 @@ div {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 .top-navigation .content {
 	height: 70px;
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: border-box;
 }
 .top-navigation .logo {
 	height: 70px;
 }
 .top-navigation .links {
 	float: right; 
+	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
@@ -91,19 +99,120 @@ div {
 	background-image: url(../img/karma-background.jpg);
 	background-position: 0 bottom;
 	background-size: cover;
+	height: 42em;
+	background-position: center bottom;
 }
 .introduction .content {
 	color: white;
-}
-
-.introduction h1 h3 {
 	text-align: center;
 	font-weight: 300;
 }
-.buttons {
-	text-shadow: none;
-	border-style: none;
+h1 {
+	font-size: 3em;
+	margin-top: 4.4em;
+}
+h3 {
+	font-size: 1.25em;
+}
+.half {
+	display: inline-block;
 	border-radius: 4px;
 	padding: 16px 26px;
 	line-height: 1.33;
+	text-shadow: none;
+	border-style: none;
+}
+.introduction .learn button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-radius: 4px;
+	color: white;
+	font-size: 1.125rem;
+	text-shadow: none;
+	border-style: none;
+	padding: 1rem 1.5rem;
+}
+.cases {
+	padding-bottom: 10rem;
+}
+.cases .content {
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+}
+.cases h2 {
+	font-size: 2.75em;
+	font-weight: 300;
+	margin-top: 3em;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.cases .devices >li {
+	width: 33.3%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+	margin-right: -3.8px;
+}
+.cases .caption {
+	text-align: center;
+}
+.caption h3 {
+	font-size: 1.56rem;
+	font-weight: 400;
+	margin-top:2.5rem;
+}
+/* Buy now section */
+.buy-now {
+	background-image: url(../img/buy-now-bg.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	height: 45.938rem;
+	padding-top: 5.25rem;
+}
+.shortcuts .list {
+	display: inline-block;
+	text-align: left;
+	width: 32.83%;
+	vertical-align: top;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	-webkit-font-smoothing: antialiased;
+}
+.shortcuts {
+	margin-top: 2em;
+}
+.list h4 {
+	margin: 1em 0px;
+	font-weight: 500;
+	color: #4c5058;
+}
+.list p {
+	font-weight: lighter;
+	margin: .5em 0px;
+}
+.list p:hover {
+	cursor: pointer;
+	color: #FF530D
+}
+h5 {
+	text-align: center;
+	margin: 1em 0px;
+	font-weight: 500;
+	color: #4c5058;
+}
+.social .icons {
+	text-align: center;
+}
+.social .icons > li {
+	border: .5px solid #eaebec;
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.5em 5px;
 }
