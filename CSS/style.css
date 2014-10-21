@@ -58,6 +58,7 @@ div {
 	margin: 0 auto;
 	padding: 0px 15px;
 	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation {
 	background-color: #fff;
@@ -112,7 +113,9 @@ h1 {
 	margin-top: 4.4em;
 }
 h3 {
-	font-size: 1.25em;
+	font-size: 1.63em;
+	padding-top: .2em;
+	padding-bottom: .5em;
 }
 .half {
 	display: inline-block;
@@ -122,7 +125,7 @@ h3 {
 	text-shadow: none;
 	border-style: none;
 }
-.introduction .learn button {
+ button {
 	width: 9.688rem;
 	background-color: #f15a29;
 	border-radius: 4px;
@@ -171,8 +174,30 @@ h3 {
 	background-image: url(../img/buy-now-bg.jpg);
 	background-size: cover;
 	background-position: center bottom;
-	height: 45.938rem;
+	height: 42rem;
 	padding-top: 5.25rem;
+	margin-bottom: 4em;
+
+}
+.buy-now aside {
+	text-align: left;
+	width: 15rem;
+}
+aside h2 {
+	color: #f15a29;
+	font-size: 1.56rem;
+	font-weight: 400;
+	margin-bottom: 1em;
+	padding-top: 2.7em;
+}
+aside p {
+	padding: .5em 0;
+	color: #838994; 
+	line-height: 1.5;
+	font-size: 1.1em;
+}
+aside button {
+	margin-top: .75em;
 }
 .shortcuts .list {
 	display: inline-block;
