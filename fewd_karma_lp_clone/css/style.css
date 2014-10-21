@@ -76,6 +76,11 @@ div {
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
+    height: 70px;
+    line-height: 70px;
+}
+.top-navigation img {
+    margin-top: 15px;
 }
 .top-navigation .links li.active {
     color: #4c5058;
@@ -181,8 +186,13 @@ div {
 .cases .devices {
     display: flex;
 }
+.devices img {
+    display: inline-block;
+}
 .cases .devices > li {
     width: 33.3333333%;
+    display: inline-block;
+    text-align: center;
 }
 .cases .devices h3 {
     font-weight: 400;

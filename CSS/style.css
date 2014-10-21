@@ -76,6 +76,9 @@ div {
 .top-navigation .logo {
 	height: 70px;
 }
+.top-navigation .content img {
+	margin-top: 15px;
+}
 .top-navigation .links {
 	float: right; 
 	font-family: 'Roboto', sans-serif; 
@@ -87,6 +90,8 @@ div {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 25px;
+	height: 70px;
+	line-height: 70px;
 }
 .top-navigation .links > .active {
     color: #4c5058;
@@ -152,14 +157,16 @@ h3 {
 	text-align: center;
 	margin-bottom: 1.5em;
 }
-
+.cases .devices img {
+	display: inline-block;
+}
 .cases .devices >li {
 	width: 33.3%;
 	display: inline-block;
 	border: 1px solid black;
 	box-sizing: border-box;
-	height: 4em;
 	margin-right: -3.8px;
+	text-align: center;
 }
 .cases .caption {
 	text-align: center;
